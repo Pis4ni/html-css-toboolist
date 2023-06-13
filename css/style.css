@@ -27,3 +27,35 @@ header{
     height: 60px;
     margin: 10px 0px 20px 20px;
 }
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    background-color: #a4a4a4;/*#### !!! TEMP. COLOR !!! #### */
+    border-radius: 15px;
+    padding: 0px 50px;
+
+}
+
+.tsk-bar{
+    padding: 20px 0px;
+}
+.tsk-bar > button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 2px solid;
+    margin: 0 2px;
+    font-weight: 600;
+    letter-spacing: 0.04rem; 
+}
+
+#btn-tsk{
+    background-color: #47adf1;
+    color: #ffffff;
+    border-color: #47adf1;
+}
+
+#btn-add{
+    color: #c5cbd0;
+}
+
