@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1rem;
 }
 
 body{
@@ -25,16 +26,17 @@ header>h1{
     line-height: 60px;
     font-weight: 800;
     letter-spacing: 0.1rem;
+    font-size: 40px;
 }
 
 header{
     height: 60px;
-    margin: 10px 0px 20px 20px;
+    margin: 10px 0px 50px 20px;
 }
 
 .container{
-    max-width: 500px;
-    margin: auto;
+    max-width: 900px;
+    margin: 0 auto 0 200px;
   /*   background-color: #a4a4a4;#### !!! TEMP. COLOR !!! #### */ 
     border-radius: 15px;
 
@@ -70,13 +72,17 @@ header{
     padding: 20px;
 }
 .main-ul{
-    list-style-type: "\21D8";
+    list-style-type: "\21D8  ";
     list-style-position: inside;
 
 }
 .main-ul li{
-    margin: 5px;
+    margin: 8px;
     padding: 5px;
+}
+
+li>h2{
+    display: inline-block;
 }
 
 .under-ul{
