@@ -88,9 +88,11 @@ header{
 .tag{
     color: #ffffff;
     border-radius: 10px;
+    font-size: 0.7rem;
+    padding: 5px;
 }
 
-.editortial{
+.editorial{
     background-color:#45abe9;
 }
 
