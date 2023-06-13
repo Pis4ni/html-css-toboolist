@@ -7,6 +7,10 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
+body{
+    background-color: #f6f8f9;
+}
+
 .logo-container{
     display: inline-block;
 }
@@ -16,7 +20,7 @@
 }  
 
 
-header > h1{
+header>h1{
     display: inline-block;
     line-height: 60px;
     font-weight: 800;
@@ -31,16 +35,17 @@ header{
 .container{
     max-width: 500px;
     margin: auto;
-    background-color: #a4a4a4;/*#### !!! TEMP. COLOR !!! #### */
+  /*   background-color: #a4a4a4;#### !!! TEMP. COLOR !!! #### */ 
     border-radius: 15px;
-    padding: 0px 50px;
 
 }
 
 .tsk-bar{
-    padding: 20px 0px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 15px;
 }
-.tsk-bar > button{
+.tsk-bar>button{
     padding: 5px 10px;
     border-radius: 5px;
     border: 2px solid;
@@ -59,3 +64,52 @@ header{
     color: #c5cbd0;
 }
 
+.display{
+    border-radius: 15px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.main-ul{
+    list-style-type: "\21D8";
+    list-style-position: inside;
+
+}
+.main-ul li{
+    margin: 5px;
+    padding: 5px;
+}
+
+.under-ul{
+    list-style-type: none;
+    padding-left: 20px;
+    
+}
+
+.tag{
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.editortial{
+    background-color:#45abe9;
+}
+
+.q1goals{
+    background-color:#9c72e4 ;
+}
+
+.recruiting{
+    background-color:#64c0a9; 
+}
+
+.mobile{
+    background-color: #f29e33;
+}
+
+.website{
+    background-color:#d863a0;
+}
+
+.sales{
+    background-color:#b0c926 ;
+}
