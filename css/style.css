@@ -121,3 +121,29 @@ li>h2{
 .sales{
     background-color:#b0c926 ;
 }
+
+/* correzione in classe, alternativa alle checkbox, solo ad uso grafico, le parti con le pseudoclassi NON appaiono effettivamente come elementi dell html */
+
+.title::before{
+    display: inline-block;
+    height:20px ;
+    width:20px ;
+    margin: 0px 5px;
+
+    line-height: 20px;
+    text-align: center;
+
+    border: 1px solid currentColor;
+    border-radius: 50px;
+
+}
+
+.done::before{
+    content: "\2713";
+    color: #2cc6ab;
+}
+.todo::before{
+    content: "\2717";
+    color: #f00;
+}
+
